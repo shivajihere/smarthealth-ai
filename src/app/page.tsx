@@ -1,7 +1,6 @@
 import {redirect} from "next/navigation";
 import prisma from "@/lib/prisma";
 import {auth} from "@/auth";
-import {currentDeploymentEnv} from "@/lib/current-deployment-env";
 
 export const dynamic = "force-dynamic";
 
