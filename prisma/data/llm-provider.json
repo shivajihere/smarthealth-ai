@@ -1,28 +1,28 @@
 [
   {
     "providerId": "openai",
-    "name": "OpenAI",
-    "apiKey": "",
-    "apiURL": "https://api.openai.com/v1",
+    "name": "Groq (Llama / DeepSeek)",
+    "apiKey": "pIa1rWv4Zr7rESo406TrSDy49s1PbJePJgrvF+TdArbMMIEW1ey3WNZGgqEM4eKDb5QJB2+JN/c8nvNMAU3IVfqXOK3KgM8IqXWgMWGCojc=",
+    "apiURL": "https://api.groq.com/openai/v1",
     "order": 0
   },
   {
-    "providerId": "anthropic",
-    "name": "Anthropic",
+    "providerId": "google",
+    "name": "Google Gemini",
     "apiKey": "",
-    "apiURL": "https://api.anthropic.com/",
+    "apiURL": "https://generativelanguage.googleapis.com/v1beta",
     "order": 1
   },
   {
-    "providerId": "google",
-    "name": "Google",
+    "providerId": "anthropic",
+    "name": "Anthropic Claude",
     "apiKey": "",
-    "apiURL": "https://generativelanguage.googleapis.com/v1beta",
+    "apiURL": "https://api.anthropic.com/",
     "order": 2
   },
   {
     "providerId": "ollama",
-    "name": "Ollama",
+    "name": "Ollama (Local)",
     "apiKey": "",
     "apiURL": "http://localhost:11434",
     "order": 3

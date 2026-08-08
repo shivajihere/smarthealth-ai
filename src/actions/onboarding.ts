@@ -72,7 +72,7 @@ export async function onboardingSubmit(data: OnboardingSubmitRequest) {
                     authorId: userId,
                     assistantModeId: mode.id,
                     llmProviderId: llmProvider.id,
-                    llmProviderModelId: 'o3-mini'
+                    llmProviderModelId: 'llama-3.3-70b-versatile'
                 }
             })
         })
