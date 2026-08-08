@@ -20,13 +20,9 @@ export default async function Page() {
         })
     ])
 
-    // If user has not onboarded, redirect to onboarding
+    // If user has not onboarded, redirect to onboarding to collect health info
     if (!user.hasOnboarded) {
-        if (currentDeploymentEnv === 'cloud') {
-            redirect('/onboarding');
-        } else {
-            await prisma.user.update({where: {id: session.user.id}, data: {hasOnboarded: true}})
-        }
+        redirect('/onboarding');
     }
 
     let chatRoom = lastChatRoom
